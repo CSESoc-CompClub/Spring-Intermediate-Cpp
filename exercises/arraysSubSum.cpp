@@ -1,6 +1,4 @@
-
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
 // Anya needs your help passing the Eden Academy entrance test! Help her learn
 // addition blazingly fast by finding a way to sum up numbers in an array mul-
@@ -14,8 +12,7 @@ using namespace std;
 // if the index itself is the sum, then the program should print "target sum f-
 // ound at index [] ".
 
-void subSum(int array[], int arraySize, int target)
-{
+void subSum(int array[], int arraySize, int target) {
     // TODO: add your code here!!
 }
 

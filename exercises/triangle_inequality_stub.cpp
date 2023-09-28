@@ -1,6 +1,4 @@
-
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
 // The triangle inequality is a theorem in math that describes how the lengths of
 // a triangle are related to each other. In particular, it tells us that the len-
@@ -11,19 +9,18 @@ using namespace std;
 // In the possibleTriangles function, find how many triangles can possibly be made
 // with any 3 side lengths (numbers in the array) using the triangle inequality.
 
-int possibleTriangles(int array[], int arraySize)
-{
+int possibleTriangles(int array[], int arraySize) {
     // TODO: add your code here !
+    return 0;
 }
 
 // ----------------------------------------------------------------------------
 
 // main function for testing array output
 
-int main()
-{
+int main() {
     int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int size = sizeof(array) / sizeof(array[0]);
 
-    cout << "The amount of possible triangles is: " << possibleTriangles(array, size) << endl;
+    std::cout << "The amount of possible triangles is: " << possibleTriangles(array, size) << "\n";
 }
