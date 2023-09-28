@@ -6,7 +6,7 @@ struct triple {
     int z;
 };
 
-// Anya wants to practice adding tripples together (of the format <x, y, z>),
+// Anya wants to practice adding triples together (of the format <x, y, z>),
 // and wants to test herself by writing a solver in code. Can you help her read
 // in two triples as input, and output the resulting sum?
 
